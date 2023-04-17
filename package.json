@@ -9,6 +9,7 @@
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "fs": "^0.0.1-security",
+    "os-browserify": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
