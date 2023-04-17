@@ -1,7 +1,5 @@
 import React, { useState,useEffect } from "react";
 import abi from "./abi.json";
-import * as dotenv from 'dotenv'; 
-dotenv.config()
 const ethers = require("ethers");
 
 function Metamask() {
@@ -9,7 +7,7 @@ function Metamask() {
 
   
 
-  const contract_address = process.env.contract_address;
+  const contract_address = process.env.REACT_APP_contract_address;
   const [errMsg, seterrMsg] = useState("");
   const [defaultAccount, setdefaultAccount] = useState("null");
   const [provider, setprovider] = useState(null);
